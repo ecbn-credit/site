@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Reserva Ambiental</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🌱 CryptoCarbon</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="regulatory.html">Cadastro Regulador</a>
+    </nav>
+  </header>
+  <main class="form-page">
+    <h1>Cadastro de Reserva Ambiental</h1>
+    <form>
+      <label for="reserveName">Nome da Reserva:</label>
+      <input type="text" id="reserveName" name="reserveName" required>
+
+      <label for="location">Localização:</label>
+      <input type="text" id="location" name="location" required>
+
+      <label for="area">Área (em hectares):</label>
+      <input type="number" id="area" name="area" required>
+
+      <label for="desc">Descrição:</label>
+      <textarea id="desc" name="desc" rows="5" required></textarea>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </main>
+  <footer>
+    <p>© 2024 CryptoCarbon</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+:root {
+  --background: #f3f8f4;
+  --primary-green: #4CAF50;
+  --dark-green: #357a38;
+  --text-dark: #2c3e50;
+  --text-light: #8e9a9e;
+  --input-border: #cfd8dc;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background);
+  color: var(--text-dark);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background-color: var(--primary-green);
+  color: white;
+}
+
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+header nav a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: var(--dark-green);
+}
+
+.landing {
+  text-align: center;
+  padding: 3em 2em;
+}
+
+.landing h1 {
+  font-size: 2.5em;
+  color: var(--dark-green);
+}
+
+.landing p {
+  font-size: 1.2em;
+  color: var(--text-light);
+}
+
+.landing button {
+  background-color: var(--primary-green);
+  color: white;
+  padding: 0.8em 2em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.landing button:hover {
+  background-color: var(--dark-green);
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+  color: var(--text-light);
+}
+
+.form-page {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 2em;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form label {
+  display: block;
+  margin: 0.5em 0 0.2em;
+  color: var(--text-dark);
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: 1px solid var(--input-border);
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form button {
+  width: 100%;
+  background-color: var(--primary-green);
+  color: white;
+  padding: 0.8em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: var(--dark-green);
+}
