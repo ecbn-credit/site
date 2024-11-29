@@ -23,10 +23,12 @@ header {
   color: white;
 }
 
-header .logo {
-  font-size: 1.5em;
-  font-weight: bold;
+header .logo img {
+  height: 100px; 
+  width: auto;
+  display: block;
 }
+
 
 header nav a {
   margin: 0 1em;
@@ -44,6 +46,14 @@ header nav a:hover {
   text-align: center;
   padding: 3em 2em;
 }
+
+.landing .featured-image {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+}
+
 
 .landing h1 {
   font-size: 2.5em;
@@ -117,3 +127,8 @@ form button {
 form button:hover {
   background-color: var(--dark-green);
 }
+
+.nav-text {
+  font-size: 25px;
+}
+
