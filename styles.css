@@ -1,6 +1,6 @@
 :root {
   --background: #f3f8f4;
-  --primary-green: #4CAF50;
+  --primary-green: #00b35c;
   --dark-green: #357a38;
   --text-dark: #2c3e50;
   --text-light: #8e9a9e;
@@ -23,11 +23,16 @@ header {
   color: white;
 }
 
-header .logo img {
-  height: 100px; 
+header .logo a {
+  height: 60px; 
   width: auto;
-  display: block;
+  display: flex;
 }
+header .logo .text-logo {
+  height: 20px; 
+  width: auto;
+  display: flex;
+} 
 
 
 header nav a {
@@ -100,7 +105,7 @@ form label {
   display: block;
   margin: 0.5em 0 0.2em;
   color: var(--text-dark);
-  font-weight: bold;
+  font-weight: bold;  
 }
 
 form input, form textarea {
@@ -129,6 +134,6 @@ form button:hover {
 }
 
 .nav-text {
-  font-size: 25px;
+  font-size: 15 px;
 }
 
