@@ -1,0 +1,77 @@
+/* Página de Níveis de Entidades */
+.levels-page {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .levels-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2e7d32; /* Tom verde folha */
+  }
+  
+  .levels-page p {
+    font-size: 1.1rem;
+    color: #388e3c;
+    margin-bottom: 30px;
+  }
+  
+  .level-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .level-card {
+    background-color: #f1f8e9; /* Fundo verde claro */
+    border: 2px solid #81c784; /* Borda verde */
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .level-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #1b5e20; /* Verde escuro */
+  }
+  
+  .level-card p {
+    font-size: 1rem;
+    color: #388e3c;
+  }
+  
+  .level-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+  }
+  
+  .level-card ul li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #2e7d32;
+  }
+  
+  .btn-small {
+    background-color: #4caf50; /* Verde forte */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-small:hover {
+    background-color: #388e3c; /* Verde mais escuro */
+  }
+  
