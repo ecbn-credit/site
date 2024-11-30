@@ -1,0 +1,71 @@
+/* Estilo principal da página de saldo */
+.balance-page {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  .balance-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2e7d32; /* Tom verde folha */
+  }
+  
+  .balance-card {
+    background-color: #f1f8e9; /* Fundo verde claro */
+    border: 2px solid #81c784; /* Borda verde */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .balance-card p {
+    font-size: 1.2rem;
+    color: #388e3c; /* Texto verde */
+    margin-bottom: 10px;
+  }
+  
+  .balance-card h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #1b5e20; /* Tom mais escuro */
+  }
+  
+  .balance-card h2 span {
+    font-size: 1rem;
+    color: #388e3c;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    background-color: #4caf50; /* Verde forte */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #388e3c; /* Verde mais escuro */
+  }
+  
+  .btn-secondary {
+    background-color: #81c784; /* Verde claro */
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #4caf50; /* Verde forte */
+  }
+  
